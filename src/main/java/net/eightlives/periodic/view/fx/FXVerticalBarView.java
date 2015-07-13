@@ -3,11 +3,6 @@ package net.eightlives.periodic.view.fx;
 import javafx.collections.ObservableList;
 import javafx.scene.Node;
 import javafx.scene.control.Button;
-import javafx.scene.image.Image;
-import javafx.scene.layout.Background;
-import javafx.scene.layout.BackgroundImage;
-import javafx.scene.layout.BackgroundPosition;
-import javafx.scene.layout.BackgroundRepeat;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.StackPane;
@@ -144,9 +139,6 @@ public class FXVerticalBarView extends BorderPane
          * #contentBackgroundPane { -fx-background-image: url(IMAGE_URL);
          * -fx-background-position: center; -fx-background-repeat: no-repeat; }
          */
-        noContentPane.setBackground(new Background(new BackgroundImage(new Image(
-                "https://www.google.com/images/srpr/logo11w.png"), BackgroundRepeat.NO_REPEAT,
-                BackgroundRepeat.NO_REPEAT, BackgroundPosition.CENTER, null)));
         return noContentPane;
     }
 }
