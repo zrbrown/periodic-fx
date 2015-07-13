@@ -1,0 +1,42 @@
+.root {
+	-fx-background-color: #444444;
+}
+
+.navigationItemStandard {
+	-fx-min-width: 90.0px;
+	-fx-min-height: 120.0px;
+	-fx-text-fill: #FFFFFF;
+	-fx-background-color: #369663;
+	-fx-background-insets: 0.0, 0.0, 1.0, 2.0;
+	-fx-background-radius: 0.0em;
+	-fx-effect: dropshadow(gaussian, #AAAAAA, 5.0, 0.5, 1.0, 1.0);
+}
+
+.navigationItemStandard:pressed {
+	-fx-translate-x: -2.0px;
+	-fx-translate-y: -2.0px;
+	-fx-effect: null;
+}
+
+.navigationItemApparent {
+	-fx-min-width: 40.0px;
+	-fx-min-height: 40.0px;
+	-fx-text-fill: #FFFFFF;
+	-fx-background-color: #DD2222;
+	-fx-background-insets: 0.0, 0.0, 1.0, 2.0;
+	-fx-background-radius: 20.0em;
+	-fx-effect: dropshadow(gaussian, #AAAAAA, 5.0, 0.5, 1.0, 1.0);
+}
+
+.navigationItemApparent:pressed {
+	-fx-translate-x: -2.0px;
+	-fx-translate-y: -2.0px;
+	-fx-effect: null;
+}
+
+#leftNavigationBar {
+	-fx-min-width: 100.0px;
+	-fx-background-color: #BBBBBB;
+	-fx-padding: 10.0px;
+	-fx-spacing: 10.0px;
+}
